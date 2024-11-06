@@ -1,0 +1,31 @@
+.header {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlist,
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.navlist li:not(:last-child),
+.controls li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.navlist li a {
+  font-weight: 500;
+}

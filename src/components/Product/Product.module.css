@@ -1,0 +1,27 @@
+.productcard {
+  padding: 10px;
+  max-width: 33%;
+}
+
+.productcardcontainer {
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+.productcardcontainer img {
+  width: 100%;
+}
+
+.productcardcontainer h2 {
+  font-weight: 400;
+  margin: 0 0 5px 0;
+}
+
+.productcardcontainer h3 {
+  font-weight: 700;
+  margin: 0 0 5px 0;
+}
+
+.productcardcontainer p {
+  font-weight: 600;
+}
